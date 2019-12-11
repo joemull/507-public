@@ -1,0 +1,140 @@
+body {
+  color: #F9F9F9;
+  margin: auto;
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+  background-color: #1E1E1E;
+}
+
+.container {
+  max-height: 100%;
+  text-align: center;
+  padding: 40px;
+}
+
+.search-pane {
+  margin-bottom: 30px;
+}
+
+input {
+  padding: 6px;
+  border: none;
+}
+
+input {
+  font-size: 12pt;
+  line-height: 16pt;
+}
+
+input[name='q'] {
+  width:300px;
+  font-family: 'Roboto', sans-serif;
+}
+
+input[name='submit'] {
+  font-family: 'Lora', serif;
+}
+
+.view-menu {
+  display: block;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: space-around;
+}
+
+li {
+  max-width: 200px;
+
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 3em;
+  color: #F2B90F;
+}
+
+h2 {
+  font-size: 1.2em;
+  line-height: 1.25em;
+}
+
+h3 {
+  font-size: .8em;
+  font-variant-caps: all-small-caps;
+}
+
+p {
+  padding: 5px 0;
+}
+
+.rights {
+  font-size: 8pt;
+}
+
+img {
+  max-width: 200px;
+  padding: 5px 0 5px;
+}
+
+.home-image {
+  max-width: 400px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: row;
+}
+
+.banner img {
+  max-height: 80px;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.results-list {
+  text-align: center;
+}
+
+.work-in-list li {
+  padding: 20px;
+}
+
+.work-in-list li:hover {
+  background-color: #414141;
+}
+
+.object-pane {
+  text-align: center;
+  margin: auto;
+}
+
+.object-pane img {
+  max-width: 90vw;
+}
+
+.object-pane .metadata {
+  padding: 20px;
+  text-align: center;
+  max-width: 600px;
+  margin: auto;
+}
+
+.object-pane .metadata h2, .object-pane .metadata p {
+  text-align: left;
+}
+
+.object-pane a {
+  text-decoration: underline;
+}

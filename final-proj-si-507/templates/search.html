@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Aby</title>
+    <link rel="stylesheet" type="text/css"
+      href="{{ url_for('static', filename='html5reset.css') }}"/>
+    <link rel="stylesheet" type="text/css"
+      href="{{ url_for('static', filename='style.css') }}"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <div class="search-pane">
+
+          <h1>Aby</h1>
+
+          <form action="/" method="post">
+            <input type="text" name="q" value="">
+            <input type="submit" name="submit" value="Search">
+            <input type="radio" name="view" value="list" id="list">
+              <label for = "list">List</label>
+            <input type="radio" name="view" value="map" id="map">
+              <label for = "map">Map</label>
+          </form>
+
+        </div>
+
+        {% if artworks == [] %}
+          <p></p>
+
+        {% else %}
+          <ul>
+            {% for work in artworks %}
+            <div class="work-in-list">
+              <a href="/object/{{work.pid}}">
+                <li>
+                  <h3>
+                    {{work.currentRepo}}
+                  </h3>
+                  <img src="{{work.imageReferences['primaryImage']}}" alt="">
+                  <h2>
+                    {{work.titleText}}
+                  </h2>
+                </li>
+              </a>
+            </div>
+            {% endfor %}
+          </ul>
+
+        {% endif %}
+      </main>
+    </div>
+  </body>
+</html>

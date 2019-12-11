@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Aby</title>
+    <link rel="stylesheet" type="text/css"
+      href="{{ url_for('static', filename='html5reset.css') }}"/>
+    <link rel="stylesheet" type="text/css"
+      href="{{ url_for('static', filename='style.css') }}"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <main>
+        <div class="search-pane">
+
+          <a href="/object/Flemish-oai:datahub.vlaamsekunstcollectie.be:groeningemuseum.be:0000_GRO2475_II-item">
+            <img class="home-image" src="static\images\path-stream.jpg" alt="Park met vijver en temple, Pierre Francois de Noter">
+          </a>
+
+          <a href="/"><h1>Aby</h1></a>
+
+          <form action="/" method="post">
+            <input type="text" name="q" value="">
+            <input type="submit" name="submit" value="Search">
+            <div class="view-menu">
+              <input type="radio" name="view" value="list" id="list" checked=True>
+                <label for = "list">List</label>
+              <input type="radio" name="view" value="map" id="map">
+                <label for = "map">Map</label>
+            </div>
+          </form>
+
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
