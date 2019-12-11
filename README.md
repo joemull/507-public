@@ -1,5 +1,7 @@
 # Final Project: SI 507, Fall 2019
 
+![Aby landing page](final-proj-si-507/static/images/aby-land.png)
+
 ## About
 Aby is an art discovery app built with museum data. At the moment, it has almost 70,000 records from the Metropolitan Museum of Art, the Rijksmuseum in the Netherlands, and several art museums in Belgium. Currently you can search by title and museum name.
 
