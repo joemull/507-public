@@ -1,4 +1,4 @@
-# Final Project: SI 507, Fall 2019
+# Final Project: SI 507 (Intermediate Programming), Fall 2019
 
 ![Aby landing page](final-proj-si-507/static/images/aby-land.png)
 
