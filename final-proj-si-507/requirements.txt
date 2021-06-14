@@ -1,4 +1,4 @@
-aiohttp==3.6.2
+aiohttp==3.7.4
 async-timeout==3.0.1
 attrs==19.3.0
 beautifulsoup4==4.8.1
@@ -10,8 +10,8 @@ diskcache==4.1.0
 Flask==1.1.1
 idna==2.8
 itsdangerous==1.1.0
-Jinja2==2.10.3
-lxml==4.6.3
+Jinja2==2.11.3
+lxml==4.4.2
 MarkupSafe==1.1.1
 multidict==4.7.0
 nltk==3.4.5
