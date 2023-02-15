@@ -23,6 +23,6 @@ six==1.13.0
 soupsieve==1.9.5
 tqdm==4.40.2
 urllib3==1.26.5
-Werkzeug==0.16.0
+Werkzeug==2.2.3
 win-unicode-console==0.5
 yarl==1.4.2
